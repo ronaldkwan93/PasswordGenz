@@ -1,0 +1,87 @@
+body {
+background-color: rgb(13, 13, 39);
+font-family: Arial, Helvetica, sans-serif;
+color: white;
+padding: 0;
+margin:0;
+}
+
+.rdm {
+    color: lightgreen;
+    padding-bottom: 10px;
+    
+}
+
+h1 {
+    color: white;
+    margin: 0;
+}
+
+.para {
+    color: rgb(134, 132, 132);
+    margin:0;
+    padding-bottom: 50px;
+}
+
+.gen {
+    display: flex;
+    /* justify-content:  */
+}
+
+.g1 {
+    margin-left: 50px;
+    /* border: 1px solid red; */
+    border-radius: 5px;
+    padding: 18px 15px;
+    width: 150px;
+    background-color: rgb(16, 16, 75);
+}
+
+.g2 {
+    margin-left: 30px;
+    padding: 18px 15px;
+    border-radius: 5px;
+    background-color: rgb(16, 16, 75);
+    width: 150px;
+}
+
+.hero {
+    margin-top: 100px;
+    margin-left: 50px;
+    display: flex;
+    display: inline-block;
+
+}
+
+.break {
+    width: 87%;
+    padding-bottom: 50px;
+    border-style: none;
+    border-bottom: 1px solid rgb(85, 57, 57);
+}
+
+.btn {
+    color: white;
+    background-color: rgb(90, 199, 90);
+    padding: 10px 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px red;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+#copied, #copied2 {
+    margin-left: 30px;
+    /* border: 1px solid red; */
+    width: 200px;
+    height: 30px;
+    /* margin-left: 150px; */
+    text-align: center;
+    color: rgb(209, 74, 74);
+}
+
+.pasta {
+    display: flex;
+}
