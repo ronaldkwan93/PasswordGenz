@@ -1,9 +1,10 @@
 body {
-background-color: rgb(13, 13, 39);
+background-color: lightsalmon;
 font-family: Arial, Helvetica, sans-serif;
 color: white;
 padding: 0;
 margin:0;
+text-align: center;
 }
 
 .rdm {
@@ -18,14 +19,14 @@ h1 {
 }
 
 .para {
-    color: rgb(134, 132, 132);
+    color: white;
     margin:0;
     padding-bottom: 50px;
 }
 
 .gen {
     display: flex;
-    /* justify-content:  */
+    justify-content: center;
 }
 
 .g1 {
@@ -35,6 +36,7 @@ h1 {
     padding: 18px 15px;
     width: 150px;
     background-color: rgb(16, 16, 75);
+    height: 2vh;
 }
 
 .g2 {
@@ -43,6 +45,7 @@ h1 {
     border-radius: 5px;
     background-color: rgb(16, 16, 75);
     width: 150px;
+    height: 2vh;
 }
 
 .hero {
@@ -58,11 +61,12 @@ h1 {
     padding-bottom: 50px;
     border-style: none;
     border-bottom: 1px solid rgb(85, 57, 57);
+
 }
 
 .btn {
-    color: white;
-    background-color: rgb(90, 199, 90);
+    color: black;
+    background-color: white;
     padding: 10px 10px;
     border-radius: 5px;
     box-shadow: 0px 0px 10px red;
@@ -84,4 +88,5 @@ h1 {
 
 .pasta {
     display: flex;
+    justify-content: center;
 }
